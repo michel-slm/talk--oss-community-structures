@@ -1,4 +1,5 @@
-class: center, middle
+name: inverse
+class: center, middle, inverse
 
 # Open Source Community Structures
 
@@ -63,7 +64,11 @@ class: center, middle
 
 ---
 
-# Commit Bit
+# Access to Repository
+* Commit Bit
+    * FreeBSD: [Commit Bit Types](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/committers-guide/committer.types.html)
+
+* 
 
 ---
 
