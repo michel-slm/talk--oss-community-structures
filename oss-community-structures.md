@@ -2,65 +2,151 @@ name: inverse
 class: center, middle, inverse
 
 # Open Source Community Structures
-
 ---
-
-# Agenda
-
-1. [Introduction](#3)
-2. [History](#4)
-3. [Licensing](#5)
-4. [Leadership](#6)
-5. [Commit Bit](#7)
-6. [Outreach](#8)
-7. [Conclusion](#9)
-
+class: center, middle, inverse
+## Who and what is Open Source?
 ---
-
-# Introduction
-
----
-
-# History
-
-* 1985 - [GNU Project](http://www.gnu.org)
+layout: false
+.left-column[
+  ## Who
+]
+.right-column[
+* 1985 - [RMS](http://en.wikipedia.org/wiki/Richard_Stallman) founded the [GNU Project](http://www.gnu.org)
   * The New Yorker: [The GNU Manifesto Turns Thirty](http://www.newyorker.com/business/currency/the-gnu-manifesto-turns-thirty)
-* 1991 - [Linux](https://www.cs.cmu.edu/~awb/linux.history.html)
-* 1995 - Apache HTTP Server
-* 1999 - Apache Software Foundation
-* 1998 - [The Open Source Initiative](http://opensource.org/history)
-
-* [Wikipedia: History of Free and Open-Source Software](http://en.wikipedia.org/wiki/History_of_free_and_open-source_software)
+* 1991 - [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds) announced [Linux](https://www.cs.cmu.edu/~awb/linux.history.html)
+* 1993
+  * [Ian Murdock](http://en.wikipedia.org/wiki/Ian_Murdock) announced the Debian distribution
+  * [Bob Young](http://en.wikipedia.org/wiki/Bob_Young_(businessman)) founded ACC Corporation
+* 1994
+    * [Marc Ewing](http://en.wikipedia.org/wiki/Marc_Ewing) created Red Hat Linux
+* 1995
+    * [Brian Behlendorf](http://en.wikipedia.org/wiki/Brian_Behlendorf) et al., [Apache HTTP Server](http://httpd.apache.org/ABOUT_APACHE.html)
+    * ACC-RHL merger to form Red Hat Software
+* 1998
+    * Netscape created Mozilla
+    * [Bruce Perens](http://en.wikipedia.org/wiki/Bruce_Perens) and [ESR](http://en.wikipedia.org/wiki/Eric_S._Raymond), [The Open Source Initiative](http://opensource.org/history)
+* 1999
+    * Apache Software Foundation
+    * Red Hat IPO
+* 2004
+    *
+      [Mark Shuttleworth](http://en.wikipedia.org/wiki/Mark_Shuttleworth)
+      invited senior Debian developers, founding Ubuntu
+]
+.footnote[ [Wikipedia: History of Free and Open-Source Software](http://en.wikipedia.org/wiki/History_of_free_and_open-source_software)]
 
 ---
+name: What
 
-# Licensing
+.left-column[
+## What
+]
+.right-column[
+* [Free Software](#free-software)
+* [Open Source Software](#oss)
+* Licenses
+]
 
-## Permissive
-* BSD / MIT / ISC
-* Apache License
-* WTFPL
+---
+name: free-software
+.left-column[
+	## What is free software?
+]
+.right-column[
+A program is free software if the program's users have the four essential freedoms:
+* The freedom to run the program as you wish, for any purpose (freedom 0).
+* The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1). Access to the source code is a precondition for this.
+* The freedom to redistribute copies so you can help your neighbor (freedom 2).
+* The freedom to distribute copies of your modified versions to others (freedom 3). By doing this you can give the whole community a chance to benefit from your changes. Access to the source code is a precondition for this.
 
-## Weak copyleft
+
+.footnote[ [The Free Software Definition](https://www.gnu.org/philosophy/free-sw.html)]
+]
+
+---
+name: oss
+.left-column[
+	## What is open source?
+]
+.right-column[
+1. Free Redistribution
+2. Source Code
+3. Derived Works
+4. Integrity of The Author's Source Code
+5. No Discrimination Against Persons or Groups
+6. No Discrimination Against Fields of Endeavor
+7. Distribution of License
+8. License Must Not Be Specific to a Product
+9. License Must Not Restrict Other Software
+10. License Must Be Technology-Neutral
+
+.footnote[ [The Open Source Definition](http://opensource.org/osd-annotated)]
+]
+---
+class: inverse
+.left-column[Poetic License]
+.right-column[
+```
+This work ‘as-is’ I provide.
+No warranty express or implied.
+  For no purpose fit,
+  not even a wee bit.
+Liability for damages denied.
+
+Permission is granted hereby,
+to copy, share, and modify.
+  Use it with glee,
+  for profit or free.
+On this notice, these rights rely.
+```
+
+.footnote[ [Copyright (C) Alex Genaud](https://github.com/alexgenaud/Poetic-License) ]
+]
+
+---
+name: common-licenses
+.left-column[
+	## Some common FOSS licenses
+]
+.right-column[
+### Permissive
+* [BSD](https://fedoraproject.org/wiki/Licensing:BSD) / [MIT](https://fedoraproject.org/wiki/Licensing:MIT) / [ISC](http://www.isc.org/downloads/software-support-policy/isc-license/)
+* [Apache License](http://www.apache.org/licenses/LICENSE-2.0)
+* [WTFPL](http://www.wtfpl.net/)
+
+#### Weak copyleft
 * File-based
-  * Mozilla Public License
-      * Common Development and Distribution License
+  * [Mozilla Public License](https://www.mozilla.org/MPL/2.0/)
+      * [Common Development and Distribution License](https://fedoraproject.org/wiki/Licensing/CDDL)
 		(derived from MPL v1.1)
 * Module-based
-  * Eclipse Public License
-  * GNU LGPL
-## Strong copyleft
-* GNU GPL
-* GNU Affero GPL
+  * [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html)
+  * GNU [LGPL](http://www.fsf.org/licensing/licenses/lgpl.html)
 
+#### Strong copyleft
+* GNU [GPL](http://www.fsf.org/licensing/licenses/gpl.html)
+* GNU [Affero GPL](http://www.fsf.org/licensing/licenses/agpl-3.0.html)
+
+.footnote[ [Fedora wiki - Licensing:Main](https://fedoraproject.org/wiki/Licensing:Main) ]
+
+]
+
+---
+name: leadership
+class: center, middle, inverse
+
+## Leadership
 
 ---
 
-# Leadership
-
-* BDFL
+.left-column[
+	## Who Leads FOSS projects?
+]
+.right-column[
+* [BDFL](http://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
   * Delegation
 * Committee
+]
 
 ---
 
