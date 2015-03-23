@@ -17,6 +17,7 @@ layout: false
 * 1993
   * [Ian Murdock](http://en.wikipedia.org/wiki/Ian_Murdock) announced the Debian distribution
   * [Bob Young](http://en.wikipedia.org/wiki/Bob_Young_(businessman)) founded ACC Corporation
+  * [FreeBSD 1.0](https://www.freebsd.org/releases/1.0/announce.html)
 * 1994
     * [Marc Ewing](http://en.wikipedia.org/wiki/Marc_Ewing) created Red Hat Linux
 * 1995
@@ -134,32 +135,120 @@ name: common-licenses
 ---
 name: leadership
 class: center, middle, inverse
+layout: true
 
-## Leadership
+---
+
+## Who Leads FOSS Projects?
+
+---
+
+## Benevolent Dictator for Life
+
+---
+layout: false
+
+.left-column[
+	## [Benevolent Dictator for Life](http://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
+]
+.right-column[
+### Examples
+* GNU: [RMS](http://en.wikipedia.org/wiki/Richard_Stallman)
+* Linux: [Linus Torvalds](http://en.wikipedia.org/wiki/Linus_Torvalds)
+* Python: [Guido van Rossum](http://en.wikipedia.org/wiki/Guido_van_Rossum)
+
+### Delegation
+* Linux: [List of maintainers and how to submit kernel changes](https://www.kernel.org/doc/linux/MAINTAINERS)
+* Python: [PEP 1 - PEP Purpose and Guidelines](https://www.python.org/dev/peps/pep-0001/)
+]
+
+---
+.left-column[
+	## Committee
+]
+.right-column[
+* Apache
+  * [How the ASF works](https://www.apache.org/foundation/how-it-works.html)
+  * [Governance](http://www.apache.org/foundation/governance/)
+* Debian
+  * [Constitution](https://www.debian.org/devel/constitution)
+  * [Project Leader](https://www.debian.org/devel/leader)
+  * [Technical Committee](https://www.debian.org/devel/tech-ctte)
+  * [General Resolution](https://www.debian.org/vote/howto_proposal)
+* Fedora
+  * [Project Leader](http://fedoraproject.org/wiki/Project_Leader)
+  * [Council](http://fedoraproject.org/wiki/Council)
+  * [Engineering Steering Committee](https://fedoraproject.org/wiki/Fedora_Engineering_Steering_Committee)
+  * [Packaging Committee](https://fedoraproject.org/wiki/Packaging_Committee)
+]
+
+---
+.left-column[
+	## Corporation
+	]
+.right-column[
+* Java
+  * [Java Community Process](https://jcp.org/en/procedures/overview)
+  * [Java Specification Requests](https://jcp.org/en/jsr/overview)
+
+]
+
+---
+.left-column[
+## Access to Repository
+]
+.right-column[
+* Commit Bit
+    * FreeBSD: [Commit Bit Types](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/committers-guide/committer.types.html)
+
+* Module maintainers
+  * Debian [Maintainers](https://wiki.debian.org/DebianMaintainer)
+  * Fedora [Package Maintainers](https://fedoraproject.org/wiki/Category:Package_Maintainers)
+
+* Pull requests
+  * GitHub: [Using pull requests](https://help.github.com/articles/using-pull-requests/)
+
+* Code reviews
+  * Android Open Source Project: [Life of a Patch](https://source.android.com/source/life-of-a-patch.html)
+
+]
+
+---
+name: cla
+class: center, middle, inverse
+## But wait...
+---
+.left-column[
+	## Copyright Assignment / Contributor License Agreement
+]
+.right-column[
+* [Wikipedia definition](http://en.wikipedia.org/wiki/Contributor_License_Agreement)
+* Apache
+  * [Individual](http://www.apache.org/licenses/icla.txt)
+  * [Corporate](http://www.apache.org/licenses/cla-corporate.txt)
+* [Fedora FPCA](https://fedoraproject.org/wiki/Legal:Fedora_Project_Contributor_Agreement)
+* [Canonical CLA](http://www.ubuntu.com/legal/contributors)
+* [Why the FSF gets copyright assignments from contributors](https://www.gnu.org/licenses/why-assign.html)
+]
+---
+name: comms
+class: center, middle, inverse
+## Communications
 
 ---
 
 .left-column[
-	## Who Leads FOSS projects?
+	## Communications
 ]
 .right-column[
-* [BDFL](http://en.wikipedia.org/wiki/Benevolent_dictator_for_life)
-  * Delegation
-* Committee
+* mailing lists
+* IRC
+* video conferencing
+* conferences
+* [code sprints](http://en.wikipedia.org/wiki/Sprint_%28software_development%29)
 ]
-
 ---
 
-# Access to Repository
-* Commit Bit
-    * FreeBSD: [Commit Bit Types](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/committers-guide/committer.types.html)
+class: center, middle, inverse
 
-* 
-
----
-
-# Outreach
-
----
-
-# Conclusion
+## That's all, folks!
